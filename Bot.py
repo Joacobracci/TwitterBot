@@ -1,9 +1,9 @@
 import tweepy
 
-consumer_key = "GHfCvUyPAzfQYuo1D2QxYYR1c"
-consumer_secret = "mwbccgrDnEx3xioehwm5FiCFmzvo4NTxpFD5MujC3pILOtzfsg"
-access_key = "1343370233621467137-aVbVkTwSXK2MztBB78J8B1AhhaYouc"
-access_secret = "W66x66SQo1Tb8t3ym9q9Ftt8Wap7pQyikCTTJ0mrDVspj"
+consumer_key = "Enter Your Twitter Consumer key"
+consumer_secret = "Enter Twitter Consumer secret"
+access_key = "Enter your Twitter Access token"
+access_secret = "Enter your Twitter secret acess token"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
